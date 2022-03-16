@@ -12,4 +12,5 @@ clang ^
     -I "%CORE_PATH%\include" ^
     -o "%TEST_EXE_FILE%" ^
     "%TEST_PATH%\src\*.c" ^
-    -L %BIN_PATH% -l geg_dict
+    -L %BIN_PATH% -l geg_dict ^
+    && "%TEST_EXE_FILE%"

@@ -12,7 +12,7 @@ typedef struct _geg_nodes
 } geg_nodes_t;
 
 /*
- * Initialize new node
+ * Initialize new node structure
  *
  * @param node Node to init
  * 
